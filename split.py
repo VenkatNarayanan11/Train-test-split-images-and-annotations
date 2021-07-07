@@ -12,7 +12,7 @@ train_lab_dir = ("train/labels")
 valid_img_dir = ("valid/images")
 valid_lab_dir = ("valid/labels")
 
-# make a list of images and labels from the source
+# make a list of image names and label names from the source
 img_data = os.listdir(img_path)
 label_data = os.listdir(label_path)
 
