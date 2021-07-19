@@ -17,7 +17,6 @@ img_data = os.listdir(img_path)
 label_data = os.listdir(label_path)
 
 # train_test_split function 
-from sklearn.model_selection import train_test_split
 train_images, valid_images, train_labels, valid_labels = train_test_split(img_data, label_data, test_size=0.3, 
                                                          shuffle=True, random_state=20)
 
