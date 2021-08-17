@@ -46,7 +46,7 @@ if os.path.isdir(valid_lab_dir):
 os.makedirs(valid_lab_dir)
 
 
-# copy the image and label names from the source dataset
+# Iterate the names and copy the image and label files from the source dataset
 for name in train_images:
     source = img_path + "/" + name
     destination = train_img_dir + "/" + name
